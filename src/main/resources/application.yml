@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oauthdemo?useUnicode=true&characterEncoding=utf8
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+
+oauth:
+  secretkey: 12345678
